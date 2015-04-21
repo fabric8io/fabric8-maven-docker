@@ -13,5 +13,5 @@ This docker container will clone a git repository from **$SOURCE_URI** then run 
 ### Example
 
 ```
-docker run -it -e SOURCE_URI=https://github.com/fabric8io/example-camel-cdi.git -e MAVEN_COMMAND="mvn install" fabric8-maven
+docker run -it -e SOURCE_URI=https://github.com/fabric8io/example-camel-cdi.git -e MAVEN_COMMAND="mvn install" fabric8/maven
 ```
